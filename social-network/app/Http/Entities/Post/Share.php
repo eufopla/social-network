@@ -8,8 +8,9 @@ class Share extends MainEntity
 {
     public ?int $id = null;
     public ?int $idPost = null;
-    public ?int $idUserFollowed = null;
-    public ?string $status = 'active';
+    public ?int $idUser = null;
+    public ?int $idUserReceiver = null;
+    public ?string $content = null;
     public ?string $createdAt = null;
-    public ?string $updatedAt = null;
+    
 }
