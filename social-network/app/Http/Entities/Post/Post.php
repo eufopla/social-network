@@ -8,7 +8,6 @@ class Post extends MainEntity
 {
     public ?int $id;
     public ?int $idUser;
-    public ?string $content;
     public ?string $postTableName;
     public ?int $postTableId;
     public ?string $status = 'active';

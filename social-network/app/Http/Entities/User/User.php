@@ -22,14 +22,8 @@ class User extends MainEntity
     public ?string $validationToken = null;
     public ?string $dateExpireValidationToken = null;
     public int $idUserProfile = 0;
-    public $logo = null;
     public ?int $civility = null;
     public ?string $phone = null;
-    public ?int $phonePublic = 0;
-    public ?int $emailPublic = 0;
-    public ?string $nameUsage = null;
-    public ?string $webSite = null;
-    public ?string $introduction = null;
     public int $idLanguage = 1;
     public ?int $changePasswordToken = null;
     public ?string $dateExpireChangePasswordToken = null;
