@@ -9,8 +9,8 @@ class PostFeedback extends MainEntity
     public ?int $id;
     public ?int $idPost;
     public ?string $content;
-    public ?string $idTargetUser;
-    public ?string $idSession;
+    public ?int $idTargetUser;
+    public ?int $idSession;
     public ?int $rate;
     public ?string $sessionDuration;
 }
